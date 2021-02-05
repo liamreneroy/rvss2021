@@ -53,6 +53,8 @@ class Res18Skip(nn.Module):
         
         # Encoder -- define the connections between the layers in the encoder here
         # See baseline example
+        
+        # ENCODER AND UPSAMPLING LAYERS CAN BE PULLED FROM EXISTING
  
         # Decoder -- define the decoder layers and additions here.
         # The pytorch method nn.UpsamplingBilinear2d can be used to do the 2x upsample required
